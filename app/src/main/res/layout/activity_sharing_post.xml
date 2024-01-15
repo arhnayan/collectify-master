@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Resim Seç" />
+        android:text="Choose an Image" />
 
     <EditText
         android:id="@+id/usernameEditText"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/selectImageButton"
         android:layout_margin="16dp"
-        android:hint="Kullanıcı Adı" />
+        android:hint="Name" />
 
     <EditText
         android:id="@+id/descriptionEditText"
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/usernameEditText"
         android:layout_margin="16dp"
-        android:hint="Açıklama" />
+        android:hint="Description" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -45,6 +45,6 @@
         android:layout_below="@id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Paylaş" />
+        android:text="Share" />
 
 </RelativeLayout>
