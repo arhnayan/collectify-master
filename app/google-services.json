@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "695978197354",
+    "firebase_url": "https://antikasat-c6284-default-rtdb.firebaseio.com",
+    "project_id": "antikasat-c6284",
+    "storage_bucket": "antikasat-c6284.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695978197354:android:11aae3c33eb8f5ff0d2513",
+        "android_client_info": {
+          "package_name": "com.example.antikasat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQGEgndOk-zujckTMWRN4WHWF2LdrxQrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/Antiques"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Antiques" />
+    <item
+        android:id="@+id/Art"
+        android:layout_width="wrap_content"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:layout_height="wrap_content"
+        android:title="Art" />
+    <item
+        android:id="@+id/Books"
+        android:layout_width="wrap_content"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:layout_height="wrap_content"
+        android:title="Books" />
+    <item
+        android:id="@+id/Coins"
+        android:layout_width="wrap_content"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:layout_height="wrap_content"
+        android:title="Coins" />
+    <item
+        android:id="@+id/Comics"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Comics" />
+    <item
+        android:id="@+id/Figures"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Figures" />
+    <item
+        android:id="@+id/Jewellery"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Jewellery" />
+    <item
+        android:id="@+id/PostCards"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="PostCards" />
+    <item
+        android:id="@+id/Sports_Memorabillia"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Sports Memorabillia" />
+    <item
+        android:id="@+id/Stamps"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Stamps" />
+    <item
+        android:id="@+id/Toys"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Toys" />
+    <item
+        android:id="@+id/Video_games"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Video Games" />
+</menu>

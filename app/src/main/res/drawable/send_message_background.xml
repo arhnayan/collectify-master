@@ -1,0 +1,15 @@
+<!-- res/drawable/sent_message_background.xml -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:padding="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <solid android:color="#5CACEE"/> <!-- Renk değiştirilebilir -->
+
+    <corners
+        android:bottomRightRadius="8dp"
+        android:topLeftRadius="8dp"
+        android:topRightRadius="8dp"/>
+</shape>
