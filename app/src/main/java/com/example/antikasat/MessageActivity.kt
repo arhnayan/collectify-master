@@ -20,7 +20,7 @@ class MessageActivity : AppCompatActivity() {
         val username = intent.getStringExtra("username")
         val profileImage = intent.getIntExtra("profileImage", 0)
 
-        // Mesajlar için sahte veri ekleyin (örnek olarak)
+        // Mesajlar için sahte veri ekle (örnek olarak)
         val fakeMessages = getFakeMessages(username)
         messageList.addAll(fakeMessages)
 

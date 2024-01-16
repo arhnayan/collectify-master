@@ -22,7 +22,7 @@ class HomeAdapter(private val context: Context, private val posts: List<SharedPo
         val likeButton: ImageView = itemView.findViewById(R.id.likeButton)
         val commentButton: ImageView = itemView.findViewById(R.id.commentButton)
 
-        var liked: Boolean = false // varsayılan olarak false olarak ayarlayın
+        var liked: Boolean = false // varsayılan olarak false olarak ayarla
     }
 
 
@@ -39,7 +39,7 @@ class HomeAdapter(private val context: Context, private val posts: List<SharedPo
         holder.descriptionTextView.text = post.description
         holder.imageView.setImageResource(post.imageResource)
 
-        // Like butonunu ekleyin ve tıklama işlemini burada gerçekleştirin
+        // Like butonunu ekle ve tıklama işlemini burada gerçekleştir
         holder.likeButton.setOnClickListener {
             // Like butonuna tıklandığında resmin değişmesi
             holder.liked = !holder.liked
@@ -51,7 +51,7 @@ class HomeAdapter(private val context: Context, private val posts: List<SharedPo
             holder.likeButton.setImageResource(newImageResource)
         }
 
-        // Comment butonunu ekleyin ve tıklama işlemini burada gerçekleştirin
+        // Comment butonunu ekle ve tıklama işlemini burada gerçekleştir
         holder.commentButton.setOnClickListener {
 
         }
